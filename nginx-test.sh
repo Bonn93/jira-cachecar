@@ -1,0 +1,1 @@
+docker run --rm -t -a stdout --name my-nginx -v $PWD/nginx-test.conf/:/etc/nginx/nginx.conf:ro nginx:latest nginx -c /etc/nginx/nginx.conf -t
